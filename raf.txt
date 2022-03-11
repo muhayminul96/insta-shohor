@@ -1,0 +1,12 @@
+The js engine executes JavaScript code.A parser in the js engine parses JavaScript code.Check the code line by line to see if there are any syntax errors.If there are no errors, Abstract Syntax Trees transform it to machine code.The machine code is subsequently executed by the Processor. 
+
+
+The event loop waits for the Call Stack to be emptied before pushing callbacks from the Task Queue to it.After the Stack is cleaned, the event loop is initiated, and it searches the Task Queue for available callbacks.
+It moves them to the Call Stack if any are discovered, waits for the Call Stack to clear, and then repeats the operation. 
+
+
+
+local storage: It not deleted when tab or browser is closed. It accesable from any tab from browser, It has 10 mb holding capasity 
+
+
+session storages: It is deleted when tab or browser closed, It accesable only from same tab in the browser. It has 5 mb holding capasity.
